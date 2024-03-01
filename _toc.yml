@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: content/intro
+
+parts:
+  - caption: Structural Causal Models
+    chapters:
+      - file: content/chapter1/bayesnetwork
+      - file: content/chapter1/causalgraphs
+      - file: content/chapter1/scm
+  - caption: Potential Outcomes Framework
+    chapters:
+      - file: content/chapter2/chapter2
+  - caption: Notebooks
+    chapters:
+      - file: content/notebooks/causal
